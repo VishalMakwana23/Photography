@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Roboto Mono", monospace; */
+  text-align: center;
+  background: #e0e0e0;
+}
+
+main{
+  
+    width: 95%;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+header{
+  box-shadow: 5px 5px 8px #cecece, -5px -5px 8px #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+section{
+  box-shadow: 5px 5px 8px #cecece, -5px -5px 8px #f2f2f2;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+footer{
+  box-shadow: 5px 5px 8px #cecece, -5px -5px 8px #f2f2f2;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 50px;
+}
+
+h2 {
+  padding: 50px;
+}
+
+.galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photos {
+  box-shadow: 1px -1px 30px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin: 20px;
+  min-width: 475px;
+  min-height: 375px;
+  flex-shrink:0;
+}
+
+
+/* navbar */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); */
+.logo{
+    height: 20px;
+    width: 269px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/* post fotorama */
+
+.fotorama {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* end post fotorama */
